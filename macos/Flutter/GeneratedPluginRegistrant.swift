@@ -5,7 +5,6 @@
 import FlutterMacOS
 import Foundation
 
-import awesome_notifications
 import battery_plus
 import cloud_firestore
 import firebase_auth
@@ -21,7 +20,6 @@ import shared_preferences_foundation
 import sqflite
 
 func RegisterGeneratedPlugins(registry: FlutterPluginRegistry) {
-  AwesomeNotificationsPlugin.register(with: registry.registrar(forPlugin: "AwesomeNotificationsPlugin"))
   BatteryPlusMacosPlugin.register(with: registry.registrar(forPlugin: "BatteryPlusMacosPlugin"))
   FLTFirebaseFirestorePlugin.register(with: registry.registrar(forPlugin: "FLTFirebaseFirestorePlugin"))
   FLTFirebaseAuthPlugin.register(with: registry.registrar(forPlugin: "FLTFirebaseAuthPlugin"))
